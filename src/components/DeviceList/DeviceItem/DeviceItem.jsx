@@ -40,6 +40,7 @@ const DeviceItem = observer(({dev, addProduct}) => {
 
 
     let imgs = JSON.parse(dev.img)
+   console.log(imgs)
 
     return (
         <div className={classes.wrapper}>
