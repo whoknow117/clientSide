@@ -28,7 +28,7 @@ const DevicePage  = observer(() => {
 
             <Row>
             <Col md={4}>
-                <Image width={300} height={300} src={img[0]  }/>
+                <Image width={300} height={300} src={process.env.REACT_APP_API_URL + 'statics ' +  img[0]  }/>
             </Col>
             <Col md={4}>
                 <Row>
